@@ -1,6 +1,6 @@
-import { FC, Fragment, useState } from "react";
+import { FC, useState } from "react";
 import { addTodoMutation, getTodosQuery } from "../queries/queries";
-import { useQuery, useMutation } from "@apollo/client";
+import { useMutation } from "@apollo/client";
 
 export const AddTodo: FC = () => {
   const [todo, setTodo] = useState<string>("");
