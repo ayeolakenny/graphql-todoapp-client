@@ -4,7 +4,7 @@ import { Root } from "./components/Root";
 
 const client = new ApolloClient({
   cache: new InMemoryCache(),
-  uri: "http://localhost:4000/graphql",
+  uri: "https://safe-springs-74347.herokuapp.com/graphql",
 });
 
 const App: FC = () => {
